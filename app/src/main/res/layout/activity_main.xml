@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix"
+        app:srcCompat="@drawable/wall" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="40sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="MathHelper"
+        android:textColor="@color/colorAccent"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageView3"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginBottom="55sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="MathHelper"
+        android:textColor="@color/colorAccent"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonBD"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_above="@id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="145dp"
+        android:backgroundTint="@android:color/white"
+        android:fontFamily="casual"
+        android:text="история ввода"
+        android:onClick="buttonBD"
+        android:textColor="#00B6A5"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonGraph"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/buttonBD"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@android:color/white"
+        android:fontFamily="casual"
+        android:text="новый график"
+        android:onClick="buttonGraph"
+        android:textColor="#00B6A5"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="75dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Выберите, что вы хотите сделать"
+
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>
